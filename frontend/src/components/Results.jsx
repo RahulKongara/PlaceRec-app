@@ -2,7 +2,7 @@ export default function Results({ data }) {
     if (!data) return null;
     const { identified, recommendations } = data;
     return (
-        <div>
+        <div className="results-container">
             <h2>Identified: {identified.name}</h2>
             <h5>Location: {identified.location}</h5>
             <p>{identified.description}</p>

@@ -125,3 +125,12 @@ button:focus-visible {
   border: 2px dashed #ccc;
   padding: 10px;
 }
+
+/* Results.jsx */
+.results-container ul {
+  list-style-type: none;
+}
+
+.results-container li {
+  margin-bottom: 10px;
+}
