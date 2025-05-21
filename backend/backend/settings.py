@@ -4,13 +4,13 @@ from pathlib import Path
 import secrets
 import string
 
-chars = string.ascii_letters + string.digits + string.punctuation
-secret_key = ''.join(secrets.choice(chars) for _ in range(50))
+# chars = string.ascii_letters + string.digits + string.punctuation
+# secret_key = ''.join(secrets.choice(chars) for _ in range(50))
 
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-SECRET_KEY = secret_key          # replace in prod!
+SECRET_KEY = ",1j0]DZkc\rGT:>r4BxL)=`}76N003gqCj[G<hL*#ziYzNnICY"          # replace in prod!
 DEBUG = True
 
 ALLOWED_HOSTS = ["https://placerec-app.onrender.com", "localhost"]
@@ -68,6 +68,7 @@ DATABASES = {
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",   # React/Vite dev server
     "http://127.0.0.1:5173",
+    "https://place-rec-app.vercel.app/",
 ]
 
 MEDIA_URL = "/media/"
