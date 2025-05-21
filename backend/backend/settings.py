@@ -1,5 +1,5 @@
 from pathlib import Path
-import django_heroku
+
 
 import secrets
 import string
@@ -8,14 +8,12 @@ chars = string.ascii_letters + string.digits + string.punctuation
 secret_key = ''.join(secrets.choice(chars) for _ in range(50))
 
 
-django_heroku.settings(locals())
-
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = secret_key          # replace in prod!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["https://placerec-app.onrender.com", "localhost"]
 
 INSTALLED_APPS = [
     "django.contrib.admin",
