@@ -13,7 +13,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = ",1j0]DZkc\rGT:>r4BxL)=`}76N003gqCj[G<hL*#ziYzNnICY"          # replace in prod!
 DEBUG = True
 
-ALLOWED_HOSTS = ["https://placerec-app.onrender.com", "localhost"]
+ALLOWED_HOSTS = [
+    "https://placerec-app.onrender.com", 
+    "localhost",
+    ]
 
 INSTALLED_APPS = [
     "django.contrib.admin",
