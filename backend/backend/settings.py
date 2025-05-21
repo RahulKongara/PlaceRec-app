@@ -14,8 +14,8 @@ SECRET_KEY = ",1j0]DZkc\rGT:>r4BxL)=`}76N003gqCj[G<hL*#ziYzNnICY"          # rep
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    "https://placerec-app.onrender.com", 
-    "http://localhost:8000",
+    "placerec-app.onrender.com", 
+    "localhost",
 ]
 
 INSTALLED_APPS = [

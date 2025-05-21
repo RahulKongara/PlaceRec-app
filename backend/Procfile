@@ -1,1 +1,1 @@
-web: gunicorn travel-advisor.wsgi
+web: gunicorn backend.wsgi
