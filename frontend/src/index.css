@@ -27,7 +27,7 @@ body {
   display: flex;
   place-items: center;
   /* added jcc; */
-  justify-content: center; 
+  justify-content: center;
   min-width: 320px;
   min-height: 100vh;
 }
@@ -38,8 +38,6 @@ h1 {
   margin: 0;
   margin-bottom: 20px;
 }
-
-
 
 button {
   border-radius: 8px;
@@ -92,7 +90,7 @@ button:focus-visible {
 }
 
 .dev-msg {
-  color: orange
+  color: orange;
 }
 
 /* Upload Component */
@@ -133,4 +131,9 @@ button:focus-visible {
 
 .results-container li {
   margin-bottom: 10px;
+}
+
+.results-div {
+  border-radius: 10px;
+  border: 1px solid lightcyan;
 }

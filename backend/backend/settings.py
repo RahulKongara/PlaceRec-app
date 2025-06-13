@@ -16,6 +16,7 @@ DEBUG = True
 ALLOWED_HOSTS = [
     "placerec-app.onrender.com", 
     "localhost",
+    "127.0.0.1"
 ]
 
 INSTALLED_APPS = [
@@ -71,7 +72,7 @@ DATABASES = {
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",   # React/Vite dev server
     "http://127.0.0.1:5173",
-    "https://place-rec-app.vercel.app/",
+    "https://place-rec-app.vercel.app",
 ]
 
 MEDIA_URL = "/media/"
